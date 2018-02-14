@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js css-menubar" lang="ko">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,80 +8,48 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="maneuling">
   <title>Sandbox | maneuling</title>
-  <script
-    src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+  <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="prism.css" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
-
-    <script src="prism.js"></script>
-
-
+  <script src="prism.js"></script>
 </head>
+
 <body class="page-login layout-full bg-blue-grey-800">
   <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
   <!-- Page -->
-
-
-  <div class="page text-center" >
+  <div class="page text-center">
     <div class="page-content ">
       <h3 class="blue-grey-300">Prism Modifier Tracker</h3>
       <div class="panel panel-bordered panel-success">
-            <div id="damage_type_title_bg" class="panel-heading bg-grey-500 padding-3">
-              <h1 class="white font-weight-300" id="damage_type_title"><strong></strong></h1>
-            </div>
-            <div class="panel-body height-200 padding-0">
-              <div  style="position:absolute;width:100%;height:100%" class="padding-top-30">
-                <span id="time_remaining" class="font-size-80 font-weight-600 text-center black text-middle">대기중</span>
-              </div>
-
-              <div style="height:100%;width:100%;" id="time_remaining_background">
-                <div style="background-color: #FFFFFF;height:30%;width:100%;" id="percentage">
-
-                </div>
-
-
-              </div>
-
-
-
-
-            </div>
-              <div class="panel-body padding-10 blue-grey-700 font-weight-600" id="next">
-
-              </div>
-
-
-              <div class="panel-footer bg-grey-300" id="damage_type_button_wrapper">
-                <button type="button" class="btn bg-orange-700 white btn-lg height-100 width-100" id="solar" >솔라</button>
-                <button type="button" class="btn bg-purple-600 white btn-lg height-100 width-100" id="void" >보이드</button>
-                <button type="button" class="btn bg-blue-600 white btn-lg height-100 width-100" id="arc" >아크</button>
-              <br/>
-
-
-                <button id="stop" type="button" class="btn margin-top-10 height-60 width-300 bg-grey-400 white">정지</button>
-                <input type="hidden" id="timevalue" value="30" />
-              </div>
+        <div id="damage_type_title_bg" class="panel-heading bg-grey-500 padding-3">
+          <h1 class="white font-weight-300" id="damage_type_title"><strong></strong></h1>
+        </div>
+        <div class="panel-body height-200 padding-0">
+          <div style="position:absolute;width:100%;height:100%" class="padding-top-30">
+            <span id="time_remaining" class="font-size-80 font-weight-600 text-center black text-middle">대기중</span>
           </div>
-
-
+          <div style="height:100%;width:100%;" id="time_remaining_background">
+            <div style="background-color: #FFFFFF;height:30%;width:100%;" id="percentage">
+            </div>
+          </div>
+        </div>
+        <div class="panel-body padding-10 blue-grey-700 font-weight-600" id="next">
+        </div>
+        <div class="panel-footer bg-grey-300" id="damage_type_button_wrapper">
+          <button type="button" class="btn bg-orange-700 white btn-lg height-100 width-100" id="solar">솔라</button>
+          <button type="button" class="btn bg-purple-600 white btn-lg height-100 width-100" id="void">보이드</button>
+          <button type="button" class="btn bg-blue-600 white btn-lg height-100 width-100" id="arc">아크</button>
+          <br/>
+          <button id="stop" type="button" class="btn margin-top-10 height-60 width-300 bg-grey-400 white">정지</button>
+          <input type="hidden" id="timevalue" value="30" />
+        </div>
+      </div>
     </div>
   </div>
-
-
-
 </body>
 
-
-
-
 </html>
-
-
-
-
